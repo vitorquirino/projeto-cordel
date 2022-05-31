@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+:root {
+    --fonte1:'Lobster', 'cursive';
+    --fonte2:'Caveat', 'cursive';
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+header > h1 {
+     font-variant: small-caps;
+     font-family: var(--fonte1);
+     font-size: 10vw;
+}
+
+header > p {
+     font-family: var(--fonte1);
+     font-size: 1.5em;
+}
+
+.link1 {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.corpo {
+    font-family: var(--fonte2);
+    font-size: 1.7em;
+    
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+.normal {
+    color: rgb(0, 0, 0);
+}
+
+.imagem {
+    background-color: rgb(62, 62, 62);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(15, 15, 15, 0.368);
+}
+
+.imagem#img1 {
+    background-image: url(../imagens/background001.jpg);
+    height: 100vh;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+.imagem#img2 {
+    background-image: url(../imagens/background002.jpg);
+    height: 100vh;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.42);
+    text-shadow: 1px 1px 0px rgba(2, 2, 2, 0.392);
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.link2 {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
