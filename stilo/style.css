@@ -43,14 +43,13 @@ a:hover {
 
 .corpo {
     font-family: var(--fonte2);
-    font-size: 1.7em;
+    font-size: 5vw;
     
 }
 
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em;
     padding-left: 30px;
 }
 
@@ -84,8 +83,7 @@ section{
 
 .imagem > p {
     display: inline-block;
-    padding: 5px;
-    width: 350px;
+    padding: 8px;
     background-color: rgba(0, 0, 0, 0.42);
     text-shadow: 1px 1px 0px rgba(2, 2, 2, 0.392);
 }
